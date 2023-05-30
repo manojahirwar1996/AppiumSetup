@@ -1,0 +1,44 @@
+Important Appium links
+Appium 2.0 overall documentation: https://appium.github.io/appium/docs/en/2.0/
+
+Appium GitHub root: https://github.com/appium
+
+Appium GitHub issues page: https://github.com/appium/appium/issues [Report server defects here]
+
+Appium Inspector: https://github.com/appium/appium-inspector
+
+UiAutomator2 Driver Documentation: https://github.com/appium/appium-uiautomator2-driver
+
+Android (UiAutomator2 Capabilities): https://github.com/appium/appium-uiautomator2-driver#capabilities
+
+XCUITest Driver Documentation:  https://github.com/appium/appium-xcuitest-driver
+
+iOS (XCUITest Capabilities): https://github.com/appium/appium-xcuitest-driver#capabilities
+
+Java Client: https://github.com/appium/java-client [Report client defects here]
+
+Driver Ecosystem: https://appium.github.io/appium/docs/en/2.0/ecosystem/
+
+API Demos app: https://github.com/appium/appium/blob/master/packages/appium/sample-code/apps/ApiDemos-debug.apk
+
+UIKitCatalog app: https://github.com/appium/ios-uicatalog
+
+SauceLabs Demo app: https://github.com/saucelabs/sample-app-mobile
+
+iOS Real Device setup: https://github.com/appium/appium-xcuitest-driver/blob/master/docs/real-device-config.md
+
+Driver Management Commands - Extension CLI: https://appium.github.io/appium/docs/en/2.0/cli/extensions/
+
+Hybrid App Automation: https://appium.io/docs/en/writing-running-appium/web/hybrid/
+
+https://appiumpro.com [For amazing articles from Jonathan Lipps - Appium Project Lead]
+
+Cucumber:
+
+Cucumber JUnit Documentation: https://cucumber.io/docs/cucumber/api/?lang=java#junit
+
+Cucumber TestNG Samples: https://github.com/cucumber/cucumber-jvm/tree/main/cucumber-testng/src/test/java/io/cucumber/testng
+
+Gherkin Syntax and Step Organization: https://cucumber.io/docs/gherkin/
+
+Cucumber Expressions: https://github.com/cucumber/cucumber-expressions#readme
