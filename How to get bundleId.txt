@@ -1,0 +1,24 @@
+iOS: How to get bundleId? [If no access to Xcode and app’s source code]
+
+.app file
+————
+Right click .app file
+Show package contents
+Launch info.plist file in Xcode
+Search for Bundle identifier
+
+.ipa file
+———-
+Rename .ipa to .zip
+Right click on .zip file -> Open With -> Archive Utility
+Payload folder is created
+Right click .app file
+Show package contents
+Launch info.plist file in Xcode
+Search for Bundle identifier
+
+App Store file
+——————
+Search for iOS App Store app in Safari and navigate to the app listing page
+e.g. https://apps.apple.com/us/app/whatsapp-messenger/id310633997
+Launch iTunes URL: https://itunes.apple.com/lookup?id=310633997
