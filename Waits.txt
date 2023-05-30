@@ -1,0 +1,26 @@
+Waits
+———
+Why? For synchronizing because different elements load at different time or it might take some time for the entire page to load due to underlying API call.
+Default wait time is zero. Driver might throw ElementNotVisibleException/ElementNotFoundException
+
+Implicit Wait
+————————
+- Driver waits for a certain fixed amount of time before throwing an exception
+- Default wait time is zero if not set
+- Global and always available for all UI elements throughout the driver instance
+
+Explicit Wait
+————————
+- Driver waits until a certain condition is met or until timeout occurs before throwing an exception
+- Can be applied for specific elements
+- Client polls every 500ms to check if the condition is met
+
+Fluent Wait
+———————-
+- Same as explicit wait except for the ability to set polling interval
+
+Best practice:
+———————
+Use either Implicit wait or explicit wait, but don’t mix both!
+Fluent wait doesn’t add much value except for the fact that we have the ability to set the polling interval, which isn’t really required.
+
