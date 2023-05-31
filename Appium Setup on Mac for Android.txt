@@ -27,7 +27,7 @@ On macOS 10.15 Catalina and later, default shell is zsh:
 -> Open zshrc file: open -e .zshrc
 -> Add below entries:
 export ANDROID_HOME=${HOME}/Library/Android/sdk
-export PATH="${ANDROID_HOME}/platform-tools:${ANDROID_HOME}/cmdline-tools:${PATH}"
+export PATH="${ANDROID_HOME}/platform-tools:${ANDROID_HOME}/cmdline-tools:${ANDROID_HOME}/tools:${PATH}"
 -> source .zshrc
 -> echo $ANDROID_HOME
 -> echo $PATH
