@@ -37,6 +37,10 @@ Command to install Appium doctor: npm install -g appium-doctor
 Command to get help: appium-doctor --h
 Command to check setup for iOS: appium-doctor --ios
 
+WARN AppiumDoctor ✖ applesimutils cannot be found
+===================================================
+brew tap wix/brew
+brew install applesimutils
 
 Install XCUITest driver (using Appium CLI)
 ===========================================
