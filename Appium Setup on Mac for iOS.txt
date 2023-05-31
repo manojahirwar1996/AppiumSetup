@@ -17,6 +17,8 @@ Install Xcode command line tools
 ======================================
 Command: xcode-select --install
 
+If xcode is not connected so check  Xcode>> preference >> command line location
+Run this sudo xcode-select -s /Applications/Xcode.app
 
 Install xcpretty [to make Xcode output reasonable]
 ========================================================
